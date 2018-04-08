@@ -28,6 +28,7 @@ public class MyFirstController {
 
     @RequestMapping("/service")
     public @ResponseBody String neMwethod() {
+        System.out.println("New method changes.");
         return  service.myServiceMethod();
     }
 
