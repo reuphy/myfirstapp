@@ -23,6 +23,7 @@ public class MyFirstController {
 
     @RequestMapping("/")
     public ResponseEntity simple(){
+        System.out.println("confluctr");
         return new ResponseEntity(HttpStatus.OK);
     }
 
